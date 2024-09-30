@@ -72,7 +72,7 @@ header:hover{
     height: 100%;
     width: 20px;
     padding-inline: 5px;
-    background: url(asets/menu-four\ square.svg);
+    background: url(assets/menu-four\ square.svg);
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: center;
@@ -85,7 +85,7 @@ header:hover{
 #adding-list{
     width: 40px;
     height: 40px;
-    background: url(asets/plus.svg);
+    background: url(assets/plus.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -170,7 +170,7 @@ li .uncheck-list{
     left: 0;
     width: 20px;
     height: 20px;
-    background: url(asets/square.svg);
+    background: url(assets/square.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
@@ -180,7 +180,7 @@ li .check-list{
     left: 0;
     width: 20px;
     height: 20px;
-    background: url(asets/check-square.svg);
+    background: url(assets/check-square.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
@@ -202,7 +202,7 @@ li .remove-list{
     right: 0;
     width: 20px;
     height: 20px;
-    background: url(asets/x.svg);
+    background: url(assets/x.svg);
     scale: .9;
 }
 .remove-list:hover{
