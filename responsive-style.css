@@ -1,0 +1,16 @@
+@media only screen and (min-width: 769px){
+    header, .detail-fill{
+        width: 483px;
+        margin-inline: auto;
+    }
+    .task-container{
+        width: 600px;
+        margin-inline: auto;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    ul li p, li input{
+        font-size: 12px;
+    }
+}

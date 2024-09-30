@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-style.css">
+    <title>ToDo-List</title>
+</head>
+<body>
+
+    <div class="container transition">
+        <header class="transition" id="header">
+            <div class="input-section">
+                <input type="text" placeholder ="Your ToDo list" class="input" id="input-text" autocomplete="off" oninput="checkWordLimit(this, 9)">
+                <button id="add-detail" class="button" title="more"></button>
+            </div>
+            <button id="adding-list" class="button" title="add list" onclick="importInput()"></button>
+        </header>
+
+        <div class="transition detail-fill unvisible" id="detail-fill">
+            <div class="time-date">
+                <input type="date" id="date-input"  min="1997-01-01" max="2030-12-31">
+                <input type="time" id="time-input">
+            </div>
+            <textarea name="description" id="description-input" placeholder="Deskrisaun"></textarea>
+        </div>
+
+        <div class="task-container">
+            <ul class="task-list" id="task-list">
+                <!-- input value will return here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
